@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FCM Notification Tester</string>
+    <string name="token_title"><b>Current FCM token:</b></string>
+    <string name="id_title"><b>Device ID:</b></string>
+    <string name="copy_toast_message">
+        Device\'s data is being loaded. Select the desired text so you can copy it.
+    </string>
+    <string name="general_channel_name">General</string>
+    <string name="general_channel_description">General purpose notifications</string>
+</resources>
