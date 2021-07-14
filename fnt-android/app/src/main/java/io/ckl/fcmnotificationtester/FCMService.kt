@@ -2,7 +2,6 @@ package io.ckl.fcmnotificationtester
 
 import android.os.Handler
 import android.os.Looper
-import android.widget.Toast
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
