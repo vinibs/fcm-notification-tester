@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E9919405C6BBFE8F2A6A42C /* libPods-FCM Notification Tester.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75572DADE7EB55F5E5D566F6 /* libPods-FCM Notification Tester.a */; };
+		BE8C6FD62698EE43005109DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C6FD52698EE43005109DB /* AppDelegate.swift */; };
+		BE8C6FD82698EE43005109DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C6FD72698EE43005109DB /* SceneDelegate.swift */; };
+		BE8C6FDA2698EE43005109DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C6FD92698EE43005109DB /* ViewController.swift */; };
+		BE8C6FDD2698EE43005109DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8C6FDB2698EE43005109DB /* Main.storyboard */; };
+		BE8C6FDF2698EE48005109DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C6FDE2698EE48005109DB /* Assets.xcassets */; };
+		BE8C6FE22698EE48005109DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8C6FE02698EE48005109DB /* LaunchScreen.storyboard */; };
+		BEFBE5A8269DEC8000A77871 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEFBE5A7269DEC8000A77871 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73FEE8BF186FFDE7DB6D84EC /* Pods-FCM Notification Tester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCM Notification Tester.debug.xcconfig"; path = "Target Support Files/Pods-FCM Notification Tester/Pods-FCM Notification Tester.debug.xcconfig"; sourceTree = "<group>"; };
+		75572DADE7EB55F5E5D566F6 /* libPods-FCM Notification Tester.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FCM Notification Tester.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8C6FD22698EE43005109DB /* FCM Notif..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FCM Notif..app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8C6FD52698EE43005109DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE8C6FD72698EE43005109DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE8C6FD92698EE43005109DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE8C6FDC2698EE43005109DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE8C6FDE2698EE48005109DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE8C6FE12698EE48005109DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE8C6FE32698EE48005109DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFBE5A7269DEC8000A77871 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BEFBE5A9269DF7D300A77871 /* FCM Notif..entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FCM Notif..entitlements"; sourceTree = "<group>"; };
+		C9C72B897686F9DAE89B1EFC /* Pods-FCM Notification Tester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCM Notification Tester.release.xcconfig"; path = "Target Support Files/Pods-FCM Notification Tester/Pods-FCM Notification Tester.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE8C6FCF2698EE43005109DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9919405C6BBFE8F2A6A42C /* libPods-FCM Notification Tester.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A2368F2C01952D4A921156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75572DADE7EB55F5E5D566F6 /* libPods-FCM Notification Tester.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		612BF3D00D17458789B1610F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73FEE8BF186FFDE7DB6D84EC /* Pods-FCM Notification Tester.debug.xcconfig */,
+				C9C72B897686F9DAE89B1EFC /* Pods-FCM Notification Tester.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE8C6FC92698EE43005109DB = {
+			isa = PBXGroup;
+			children = (
+				BE8C6FD42698EE43005109DB /* FCM Notification Tester */,
+				BE8C6FD32698EE43005109DB /* Products */,
+				612BF3D00D17458789B1610F /* Pods */,
+				40A2368F2C01952D4A921156 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE8C6FD32698EE43005109DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C6FD22698EE43005109DB /* FCM Notif..app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE8C6FD42698EE43005109DB /* FCM Notification Tester */ = {
+			isa = PBXGroup;
+			children = (
+				BEFBE5A9269DF7D300A77871 /* FCM Notif..entitlements */,
+				BE8C6FD52698EE43005109DB /* AppDelegate.swift */,
+				BE8C6FD72698EE43005109DB /* SceneDelegate.swift */,
+				BE8C6FD92698EE43005109DB /* ViewController.swift */,
+				BE8C6FDB2698EE43005109DB /* Main.storyboard */,
+				BE8C6FDE2698EE48005109DB /* Assets.xcassets */,
+				BE8C6FE02698EE48005109DB /* LaunchScreen.storyboard */,
+				BE8C6FE32698EE48005109DB /* Info.plist */,
+				BEFBE5A7269DEC8000A77871 /* GoogleService-Info.plist */,
+			);
+			path = "FCM Notification Tester";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE8C6FD12698EE43005109DB /* FCM Notification Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8C6FE62698EE48005109DB /* Build configuration list for PBXNativeTarget "FCM Notification Tester" */;
+			buildPhases = (
+				8CD4B66443ABC4FBAD558470 /* [CP] Check Pods Manifest.lock */,
+				BE8C6FCE2698EE43005109DB /* Sources */,
+				BE8C6FCF2698EE43005109DB /* Frameworks */,
+				BE8C6FD02698EE43005109DB /* Resources */,
+				F0182B3CCF9B643CE4808B39 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCM Notification Tester";
+			productName = "FCM Notification Tester";
+			productReference = BE8C6FD22698EE43005109DB /* FCM Notif..app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE8C6FCA2698EE43005109DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BE8C6FD12698EE43005109DB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = BE8C6FCD2698EE43005109DB /* Build configuration list for PBXProject "FCM Notification Tester" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE8C6FC92698EE43005109DB;
+			productRefGroup = BE8C6FD32698EE43005109DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE8C6FD12698EE43005109DB /* FCM Notification Tester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE8C6FD02698EE43005109DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8C6FE22698EE48005109DB /* LaunchScreen.storyboard in Resources */,
+				BEFBE5A8269DEC8000A77871 /* GoogleService-Info.plist in Resources */,
+				BE8C6FDF2698EE48005109DB /* Assets.xcassets in Resources */,
+				BE8C6FDD2698EE43005109DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CD4B66443ABC4FBAD558470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FCM Notification Tester-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0182B3CCF9B643CE4808B39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FCM Notification Tester/Pods-FCM Notification Tester-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FCM Notification Tester/Pods-FCM Notification Tester-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FCM Notification Tester/Pods-FCM Notification Tester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE8C6FCE2698EE43005109DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8C6FDA2698EE43005109DB /* ViewController.swift in Sources */,
+				BE8C6FD62698EE43005109DB /* AppDelegate.swift in Sources */,
+				BE8C6FD82698EE43005109DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE8C6FDB2698EE43005109DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE8C6FDC2698EE43005109DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE8C6FE02698EE48005109DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE8C6FE12698EE48005109DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE8C6FE42698EE48005109DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE8C6FE52698EE48005109DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE8C6FE72698EE48005109DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FEE8BF186FFDE7DB6D84EC /* Pods-FCM Notification Tester.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FCM Notification Tester/FCM Notif..entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3UK62DH5A;
+				INFOPLIST_FILE = "FCM Notification Tester/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.ckl.fcmnotificationtester;
+				PRODUCT_NAME = "FCM Notif.";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BE8C6FE82698EE48005109DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C72B897686F9DAE89B1EFC /* Pods-FCM Notification Tester.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FCM Notification Tester/FCM Notif..entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3UK62DH5A;
+				INFOPLIST_FILE = "FCM Notification Tester/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.ckl.fcmnotificationtester;
+				PRODUCT_NAME = "FCM Notif.";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE8C6FCD2698EE43005109DB /* Build configuration list for PBXProject "FCM Notification Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8C6FE42698EE48005109DB /* Debug */,
+				BE8C6FE52698EE48005109DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE8C6FE62698EE48005109DB /* Build configuration list for PBXNativeTarget "FCM Notification Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8C6FE72698EE48005109DB /* Debug */,
+				BE8C6FE82698EE48005109DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE8C6FCA2698EE43005109DB /* Project object */;
+}
