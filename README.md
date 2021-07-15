@@ -25,8 +25,8 @@ To setup the project, there are some steps from the [Android step-by-step](https
 ## Setup for iOS
 In the same way, there are some steps from the [iOS step-by-step](https://firebase.google.com/docs/cloud-messaging/ios/client) documentation that must be followed to setup the iOS project:
 
-- Obtain an Apple Push Notification Authentication Key for your Apple Developer account. [`requires Apple Developer account`]
-- Enable Push Notifications in Xcode under App > Capabilities. [`requires Apple Developer account`]
+- Obtain an Apple Push Notification Authentication Key for your Apple Developer account (requires Apple Developer account).
+- Enable Push Notifications in Xcode under App > Capabilities (requires Apple Developer account).
 - [Register your app with Firebase](https://firebase.google.com/docs/cloud-messaging/ios/client#register-app)
 - [Add a Firebase configuration file](https://firebase.google.com/docs/cloud-messaging/ios/client#add-config-file)
 - Install the pods (`pod install` inside the project directory)
